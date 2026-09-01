@@ -58,23 +58,23 @@ For each measurement:
 
 Power is calculated as:
 
-\[
+$$
 P = V \times I
-\]
+$$
 
 where:
 
-- \(P\) = power in mW
-- \(V\) = voltage in V
-- \(I\) = current in mA
+- $P$ = power in mW
+- $V$ = voltage in V
+- $I$ = current in mA
 
 Energy is calculated by integrating the measured power over time:
 
-\[
-E = \sum P_i \Delta t_i
-\]
+$$
+E = \sum_{i=1}^{N} P_i \Delta t_i
+$$
 
-with the time interval converted to hours.
+where the time interval $\Delta t_i$ is converted to hours.
 
 ## CSV Data Format
 
