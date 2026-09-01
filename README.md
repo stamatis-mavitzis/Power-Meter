@@ -180,17 +180,17 @@ For long measurements, the CSV file can later be processed using a Python script
 
 The recorded CSV data can be processed externally using Python or another data-analysis environment.
 
-The recorded quantities can be used to determine:
+The recorded quantities can be used to determine the average power:
 
-\[
+$$
 P_{\mathrm{avg}} = \frac{1}{N}\sum_{i=1}^{N} P_i
-\]
+$$
 
 and the total energy consumed during the measurement:
 
-\[
-E_{\mathrm{total}} = \sum_{i=1}^{N} P_i\Delta t_i
-\]
+$$
+E_{\mathrm{total}} = \sum_{i=1}^{N} P_i \Delta t_i
+$$
 
 This makes the power meter suitable for quantitative analysis of low-power electronic systems.
 
